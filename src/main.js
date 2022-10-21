@@ -51,15 +51,15 @@ if (window.innerWidth > 760) {
 }
 
 /*Animation på mobile */
-inView(".fotoinvie_venstre", ({ target }) => {
-  animate(target, { translateX: [400, 0] }, { duration: 2 });
-  return () => {
-    animate(target, { translateX: [400, 0] }, { duration: 2 });
-  };
-});
-inView(".fotoinview_hojre", ({ target }) => {
-  animate(target, { translateX: [-300, 0] }, { duration: 2 });
-  return () => {
-    animate(target, { translateX: [-300, 0] }, { duration: 2 });
-  };
-});
+// inView(".fotoinvie_venstre", ({ target }) => {
+//   animate(target, { translateX: [400, 0] }, { duration: 2 });
+//   return () => {
+//     animate(target, { translateX: [400, 0] }, { duration: 2 });
+//   };
+// });
+// inView(".fotoinview_hojre", ({ target }) => {
+//   animate(target, { translateX: [-300, 0] }, { duration: 2 });
+//   return () => {
+//     animate(target, { translateX: [-300, 0] }, { duration: 2 });
+//   };
+// });
